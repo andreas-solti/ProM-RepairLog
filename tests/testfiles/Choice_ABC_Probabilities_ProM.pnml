@@ -1,0 +1,186 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+   <net id="petrinet imported from (Choice_ABC_Probabilities.pnml)" type="http://www.pnml.org/version-2009/grammar/ptnet">
+      <toolspecific tool="StochasticPetriNet" version="0.2">
+         <property key="timeUnit">minutes</property>
+         <property key="executionPolicy">race (enabling memory)</property>
+      </toolspecific>
+      <page id="p1">
+         <transition id="tA">
+            <graphics>
+               <position x="137.0" y="70.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">NORMAL</property>
+               <property key="weight">1.0</property>
+               <property key="distributionParameters">10;2</property>
+               <property key="invisible">false</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>A</text>
+            </name>
+         </transition>
+         <transition id="tB">
+            <graphics>
+               <position x="312.0" y="81.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">NORMAL</property>
+               <property key="weight">0.4</property>
+               <property key="distributionParameters">15.0;1.0</property>
+               <property key="invisible">false</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>B</text>
+            </name>
+         </transition>
+         <transition id="t2">
+            <graphics>
+               <position x="225.0" y="88.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">IMMEDIATE</property>
+               <property key="weight">3.0</property>
+               <property key="distributionParameters"></property>
+               <property key="invisible">true</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>t2</text>
+            </name>
+         </transition>
+         <transition id="t1">
+            <graphics>
+               <position x="225.0" y="53.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">IMMEDIATE</property>
+               <property key="weight">1.0</property>
+               <property key="distributionParameters"></property>
+               <property key="invisible">true</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>t1</text>
+            </name>
+         </transition>
+         <transition id="tStart">
+            <graphics>
+               <position x="50.0" y="70.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">IMMEDIATE</property>
+               <property key="weight">1.0</property>
+               <property key="distributionParameters"></property>
+               <property key="invisible">false</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>tStart</text>
+            </name>
+         </transition>
+         <transition id="tC">
+            <graphics>
+               <position x="400.0" y="68.0"/>
+               <dimension x="25.0" y="20.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="trainingData"/>
+               <property key="distributionType">NORMAL</property>
+               <property key="weight">0.4</property>
+               <property key="distributionParameters">10.0;1.0</property>
+               <property key="invisible">false</property>
+               <property key="priority">0</property>
+            </toolspecific>
+            <name>
+               <text>C</text>
+            </name>
+         </transition>
+         <place id="pA">
+            <graphics>
+               <position x="93.0" y="70.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>pA</text>
+            </name>
+         </place>
+         <place id="p2">
+            <graphics>
+               <position x="181.0" y="70.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>p2</text>
+            </name>
+         </place>
+         <place id="sid-CAE1F121-EA7F-43B0-8DC0-4D6F0B8E0EB7">
+            <graphics>
+               <position x="356.0" y="68.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>sid-CAE1F121-EA7F-43B0-8DC0-4D6F0B8E0EB7</text>
+            </name>
+         </place>
+         <place id="sid-70A48BB7-D2FE-4AD3-86E0-8CB3D1409922">
+            <graphics>
+               <position x="268.0" y="84.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>sid-70A48BB7-D2FE-4AD3-86E0-8CB3D1409922</text>
+            </name>
+         </place>
+         <place id="pStart">
+            <graphics>
+               <position x="6.0" y="70.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>pStart</text>
+            </name>
+            <initialMarking>
+               <text>1</text>
+            </initialMarking>
+         </place>
+         <place id="pEnd">
+            <graphics>
+               <position x="443.0" y="68.0"/>
+               <dimension x="12.0" y="12.0"/>
+            </graphics>
+            <name>
+               <text>pEnd</text>
+            </name>
+         </place>
+         <arc id="a0" source="t1" target="sid-CAE1F121-EA7F-43B0-8DC0-4D6F0B8E0EB7">
+            <graphics>
+               <position x="269.0" y="55.0"/>
+               <position x="313.0" y="55.0"/>
+            </graphics>
+         </arc>
+         <arc id="a1" source="p2" target="t1"/>
+         <arc id="a2" source="tA" target="p2"/>
+         <arc id="a3" source="pA" target="tA"/>
+         <arc id="a4" source="sid-CAE1F121-EA7F-43B0-8DC0-4D6F0B8E0EB7" target="tC"/>
+         <arc id="a5" source="pStart" target="tStart"/>
+         <arc id="a6" source="sid-70A48BB7-D2FE-4AD3-86E0-8CB3D1409922" target="tB"/>
+         <arc id="a7" source="tB" target="sid-CAE1F121-EA7F-43B0-8DC0-4D6F0B8E0EB7"/>
+         <arc id="a8" source="p2" target="t2"/>
+         <arc id="a9" source="tStart" target="pA"/>
+         <arc id="a10" source="t2" target="sid-70A48BB7-D2FE-4AD3-86E0-8CB3D1409922"/>
+         <arc id="a11" source="tC" target="pEnd"/>
+      </page>
+   </net>
+</pnml>

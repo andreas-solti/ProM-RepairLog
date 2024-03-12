@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+  <package author="Andreas Rogge-Solti" auto="false" desc="RepairLog" hasPlugins="true" license="LGPL" logo="http://www.promtools.org/prom6/packages/prom_subtitle_hat_300.png" name="RepairLog" org="Hasso Plattner Institute of the University of Potsdam" os="all" url="http://www.promtools.org/prom6/packages/RepairLog/RepairLog-6.1.63-all.zip" version="6.1.63">
+    <dependency name="Log" />
+    <dependency name="PetriNets" />
+    <dependency name="PNAnalysis" />
+    <dependency name="PNetAlignmentAnalysis" />
+    <dependency name="PNetReplayer" />
+    <dependency name="StochasticPetriNets" />
+    <dependency name="TransitionSystems" />
+    <dependency name="Widgets" />
+  </package>
+</packages>

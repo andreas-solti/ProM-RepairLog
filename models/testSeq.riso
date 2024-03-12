@@ -1,0 +1,41 @@
+riso.belief_nets.BeliefNetwork testSeq
+{
+  riso.belief_nets.Variable X_A
+  {
+    type continuous
+    distribution riso.distributions.Gaussian
+    {
+      mean 7
+      std-deviation 2
+    }
+  }
+  riso.belief_nets.Variable X_B
+  {
+    type continuous
+    distribution riso.distributions.Gaussian
+    {
+      mean 5
+      std-deviation 1
+    }
+  }
+  riso.belief_nets.Variable Max
+  {
+
+    parents {X_A X_B}
+    distribution riso.distributions.Max { }
+  }
+  riso.belief_nets.Variable X_C
+  {
+    type continuous
+    distribution riso.distributions.Gaussian
+    {
+      mean 6
+      std-deviation 1.5
+    }
+  }
+  riso.belief_nets.Variable Sum
+  {
+    parents {X_C Max}
+    distribution riso.distributions.Sum { }
+  }
+}

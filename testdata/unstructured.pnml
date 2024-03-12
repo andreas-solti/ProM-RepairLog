@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net type="http://www.yasper.org/specs/epnml-2.0" id="dc1">
+    <page id="pg1">
+      <graphics>
+        <position x="339" y="129" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <transition id="tr4">
+        <graphics>
+          <position x="83" y="165" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr9">
+        <graphics>
+          <position x="84" y="85" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr13">
+        <name>
+          <text>B</text>
+        </name>
+        <graphics>
+          <position x="199" y="86" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr15">
+        <name>
+          <text>A</text>
+        </name>
+        <graphics>
+          <position x="195" y="164" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr21">
+        <graphics>
+          <position x="308" y="86" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr22">
+        <graphics>
+          <position x="308" y="167" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr25">
+        <name>
+          <text>F</text>
+        </name>
+        <graphics>
+          <position x="419" y="16" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr26">
+        <name>
+          <text>E</text>
+        </name>
+        <graphics>
+          <position x="413" y="84" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr33">
+        <name>
+          <text>C</text>
+        </name>
+        <graphics>
+          <position x="413" y="167" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr34">
+        <name>
+          <text>D</text>
+        </name>
+        <graphics>
+          <position x="410" y="241" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr41">
+        <graphics>
+          <position x="519" y="85" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr42">
+        <graphics>
+          <position x="515" y="168" />
+          <dimension x="10" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr43">
+        <graphics>
+          <position x="520" y="16" />
+          <dimension x="6" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr44">
+        <graphics>
+          <position x="517" y="243" />
+          <dimension x="8" y="32" />
+        </graphics>
+      </transition>
+      <transition id="tr63">
+        <name>
+          <text>G</text>
+        </name>
+        <graphics>
+          <position x="612" y="124" />
+          <dimension x="32" y="32" />
+        </graphics>
+      </transition>
+      <place id="start">
+        <graphics>
+          <position x="10" y="130" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pl3">
+        <graphics>
+          <position x="128" y="165" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl8">
+        <graphics>
+          <position x="127" y="85" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl17">
+        <graphics>
+          <position x="259" y="88" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl19">
+        <graphics>
+          <position x="259" y="165" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl27">
+        <graphics>
+          <position x="361" y="14" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl30">
+        <graphics>
+          <position x="361" y="87" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl35">
+        <graphics>
+          <position x="367" y="167" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl38">
+        <graphics>
+          <position x="367" y="240" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl45">
+        <graphics>
+          <position x="465" y="17" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl48">
+        <graphics>
+          <position x="460" y="85" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl51">
+        <graphics>
+          <position x="462" y="166" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl54">
+        <graphics>
+          <position x="460" y="241" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl57">
+        <graphics>
+          <position x="565" y="86" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="pl60">
+        <graphics>
+          <position x="564" y="166" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <graphics>
+          <position x="668" y="123" />
+          <dimension x="20" y="20" />
+        </graphics>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+      </place>
+      <arc id="a1" source="start" target="tr4">
+        <graphics>
+          <position x="12" y="166" />
+        </graphics>
+      </arc>
+      <arc id="a2" source="tr4" target="pl3" />
+      <arc id="a3" source="tr9" target="pl8" />
+      <arc id="a4" source="start" target="tr9">
+        <graphics>
+          <position x="12" y="87" />
+        </graphics>
+      </arc>
+      <arc id="a5" source="pl8" target="tr13" />
+      <arc id="a6" source="pl3" target="tr15" />
+      <arc id="a7" source="tr13" target="pl17" />
+      <arc id="a8" source="tr15" target="pl19" />
+      <arc id="a9" source="pl19" target="tr22" />
+      <arc id="a10" source="pl17" target="tr21" />
+      <arc id="a11" source="tr21" target="pl27">
+        <graphics>
+          <position x="307" y="14" />
+        </graphics>
+      </arc>
+      <arc id="a12" source="pl27" target="tr25" />
+      <arc id="a13" source="tr21" target="pl30" />
+      <arc id="a14" source="pl30" target="tr26" />
+      <arc id="a15" source="tr22" target="pl35" />
+      <arc id="a16" source="pl35" target="tr33" />
+      <arc id="a17" source="tr22" target="pl38">
+        <graphics>
+          <position x="308" y="238" />
+        </graphics>
+      </arc>
+      <arc id="a18" source="pl38" target="tr34" />
+      <arc id="a19" source="tr25" target="pl45" />
+      <arc id="a20" source="pl45" target="tr43" />
+      <arc id="a21" source="tr26" target="pl48" />
+      <arc id="a22" source="pl48" target="tr41" />
+      <arc id="a23" source="tr33" target="pl51" />
+      <arc id="a24" source="pl51" target="tr42" />
+      <arc id="a25" source="tr34" target="pl54" />
+      <arc id="a26" source="pl54" target="tr44" />
+      <arc id="a27" source="tr43" target="pl57">
+        <graphics>
+          <position x="566" y="18" />
+        </graphics>
+      </arc>
+      <arc id="a28" source="tr44" target="pl60">
+        <graphics>
+          <position x="565" y="243" />
+        </graphics>
+      </arc>
+      <arc id="a29" source="pl57" target="tr63">
+        <graphics>
+          <position x="611" y="86" />
+        </graphics>
+      </arc>
+      <arc id="a30" source="pl60" target="tr63">
+        <graphics>
+          <position x="611" y="166" />
+        </graphics>
+      </arc>
+      <arc id="a31" source="tr63" target="end" />
+      <arc id="a32" source="tr41" target="pl60" />
+      <arc id="a33" source="tr42" target="pl57" />
+    </page>
+  </net>
+</pnml>

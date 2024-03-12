@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>stochastic normal unstructured.pnml</text>
+    </name>
+    <page id="n0">
+      <place id="n1">
+        <name>
+          <text>start</text>
+        </name>
+        <graphics>
+          <position x="6.25" y="109.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="n2">
+        <name>
+          <text>pl3</text>
+        </name>
+        <graphics>
+          <position x="83.75" y="127.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>pl8</text>
+        </name>
+        <graphics>
+          <position x="83.75" y="90.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>pl17</text>
+        </name>
+        <graphics>
+          <position x="171.25" y="84.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n5">
+        <name>
+          <text>pl19</text>
+        </name>
+        <graphics>
+          <position x="171.25" y="134.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>pl27</text>
+        </name>
+        <graphics>
+          <position x="248.75" y="97.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>pl30</text>
+        </name>
+        <graphics>
+          <position x="248.75" y="69.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>pl35</text>
+        </name>
+        <graphics>
+          <position x="248.75" y="151.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>pl38</text>
+        </name>
+        <graphics>
+          <position x="248.75" y="124.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>pl45</text>
+        </name>
+        <graphics>
+          <position x="336.25" y="126.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n11">
+        <name>
+          <text>pl48</text>
+        </name>
+        <graphics>
+          <position x="336.25" y="57.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n12">
+        <name>
+          <text>pl51</text>
+        </name>
+        <graphics>
+          <position x="336.25" y="159.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n13">
+        <name>
+          <text>pl54</text>
+        </name>
+        <graphics>
+          <position x="336.25" y="91.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n14">
+        <name>
+          <text>pl57</text>
+        </name>
+        <graphics>
+          <position x="413.75" y="130.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n15">
+        <name>
+          <text>pl60</text>
+        </name>
+        <graphics>
+          <position x="413.75" y="86.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n16">
+        <name>
+          <text>end</text>
+        </name>
+        <graphics>
+          <position x="501.25" y="108.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <transition id="n17" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr4</text>
+        </name>
+        <graphics>
+          <position x="45.0" y="124.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n18" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr9</text>
+        </name>
+        <graphics>
+          <position x="45.0" y="94.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n19" priority="0" weight="702.0" distributionType="NORMAL" distributionParameters="537008.547008547;118606.4949322389">
+        <name>
+          <text>B</text>
+        </name>
+        <graphics>
+          <position x="127.5" y="86.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n20" priority="0" weight="702.0" distributionType="NORMAL" distributionParameters="1496239.3162393162;137009.385617631">
+        <name>
+          <text>A</text>
+        </name>
+        <graphics>
+          <position x="127.5" y="130.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n21" priority="0" weight="298.0" distributionType="NORMAL" distributionParameters="355570.46979865775;82563.16875864675">
+        <name>
+          <text>tr21</text>
+        </name>
+        <graphics>
+          <position x="210.0" y="82.5"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n22" priority="0" weight="298.0" distributionType="NORMAL" distributionParameters="657181.2080536913;123550.6168817826">
+        <name>
+          <text>tr22</text>
+        </name>
+        <graphics>
+          <position x="210.0" y="137.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n23" priority="0" weight="1000.0" distributionType="NORMAL" distributionParameters="602700.0;119864.41289005456">
+        <name>
+          <text>F</text>
+        </name>
+        <graphics>
+          <position x="292.5" y="125.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n24" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>E</text>
+        </name>
+        <graphics>
+          <position x="292.5" y="55.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n25" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>C</text>
+        </name>
+        <graphics>
+          <position x="292.5" y="160.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n26" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>D</text>
+        </name>
+        <graphics>
+          <position x="292.5" y="90.5"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <transition id="n27" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr41</text>
+        </name>
+        <graphics>
+          <position x="375.0" y="61.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n28" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr42</text>
+        </name>
+        <graphics>
+          <position x="375.0" y="157.5"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n29" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr43</text>
+        </name>
+        <graphics>
+          <position x="375.0" y="127.5"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n30" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>tr44</text>
+        </name>
+        <graphics>
+          <position x="375.0" y="91.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+      </transition>
+      <transition id="n31" priority="1" weight="1.0" distributionType="IMMEDIATE">
+        <name>
+          <text>G</text>
+        </name>
+        <graphics>
+          <position x="457.5" y="108.0"/>
+          <dimension x="25.0" y="20.0"/>
+          <fill color="#FFFFFF"/>
+        </graphics>
+      </transition>
+      <arc id="arc32" source="n1" target="n17">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc33" source="n5" target="n22">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc34" source="n30" target="n15">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc35" source="n4" target="n21">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc36" source="n31" target="n16">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc37" source="n20" target="n5">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc38" source="n13" target="n30">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc39" source="n3" target="n19">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc40" source="n2" target="n20">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc41" source="n1" target="n18">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc42" source="n9" target="n26">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc43" source="n6" target="n23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc44" source="n27" target="n15">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc45" source="n22" target="n9">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc46" source="n21" target="n6">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc47" source="n11" target="n27">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc48" source="n24" target="n11">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc49" source="n18" target="n3">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc50" source="n8" target="n25">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc51" source="n23" target="n10">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc52" source="n29" target="n14">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc53" source="n25" target="n12">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc54" source="n22" target="n8">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc55" source="n19" target="n4">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc56" source="n14" target="n31">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc57" source="n17" target="n2">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc58" source="n12" target="n28">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc59" source="n7" target="n24">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc60" source="n26" target="n13">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc61" source="n21" target="n7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc62" source="n10" target="n29">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc63" source="n28" target="n14">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc64" source="n15" target="n31">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+    </page>
+  </net>
+</pnml>
+

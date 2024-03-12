@@ -1,0 +1,12 @@
+riso.belief_nets.BeliefNetwork test1Var
+{
+  riso.belief_nets.Variable X
+  {
+    type continuous
+    distribution riso.distributions.Gaussian
+    {
+      mean 50
+      std-deviation 17
+    }
+  }
+}
